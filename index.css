@@ -1,0 +1,205 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(gunung.png);
+    background-position: bottom;
+    background-size: cover;
+    
+}
+
+.list {
+
+    list-style-type: none;
+    background-color: rgba(0,0,0,0);
+    padding-left: 105px;
+    width: 500px;
+    margin-top: -500px;
+
+}
+
+li a {
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 13px 5px;
+    font-size: 40px;
+
+}
+li a:hover{
+    background-color: #0000007f;
+   }
+
+li {
+
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+.profile {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+} 
+
+.sakura {
+
+    width: 255px;
+    height: 255px;
+    border-radius: 20pc;
+    margin-top: 230px;
+
+}
+
+.nama {
+
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: white;
+    
+}
+
+.jurusan {
+
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: white;
+    
+}
+
+.sekolah {
+
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: white;
+    
+
+}
+
+/*About Me*/
+
+section {
+
+    display: flex;
+    width: 100vw;
+    height: 497px;
+    background: linear-gradient(#FB9590 0%,#F7CFCD 40%,#F5F5F5 100%);
+
+}
+
+.title {
+
+    text-align: start;
+    font-size: 4vmin;
+    padding-left: 105px;
+    margin-top: 20px;
+
+}
+
+.row {
+
+    display: flex;
+
+}
+
+.row .biodata {
+
+    padding-left: 0px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.row .biodata .deks{
+
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.row .line img {
+    padding-left: 250px;
+    margin-top: 10px;
+}
+
+.row .hoby {
+    padding-left: 100px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.row .hoby .novel img{
+
+    margin-top: 20px;
+    width: 268px;
+    height: 180px;
+}
+.row .hoby2 .masak h3 {
+    font-size: 25px;
+    padding-left: 40px;
+}
+.row .hoby2 .masak img{
+
+    margin-top: 110px;
+    width: 272px;
+    height: 163px;
+    padding-left: 40px;
+}
+
+.explore{
+    width: 100vw;
+    height: 432px;
+    background-image: url(bgpol.png);
+    display: flex;
+}
+.hlm {
+    display: flex;
+    padding-left: 105px;
+    font-size: 25px;
+    margin-top: 60px;
+
+}
+
+.edu p{
+    margin-top: 20px;
+    font-family: sans-serif;
+    
+}
+.edu img{
+    width: 401px;
+    height: 230px;
+    margin-top: -140px;
+}
+
+.des {
+    padding-left: 150px;
+
+}
+.des p{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.end {
+    display: flex;
+    background-image: url(bg.png);
+    width: 100vw;
+    height: 902px;
+}
+.expe {
+    padding-left: 105px;
+    font-size: 39px;
+    margin-top: 60px;
+}
